@@ -1,6 +1,3 @@
-" Format Buffer
-nnoremap <leader>v :%!stylish-haskell
-
 " Indentation
 let g:haskell_classic_highlighting = 1
 let g:haskell_indent_if = 3

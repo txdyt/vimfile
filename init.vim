@@ -43,7 +43,7 @@ Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-repeat'
 Plug 'neovimhaskell/haskell-vim'
-Plug 'alx741/vim-stylishask'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 command! Pu PlugUpdate
@@ -85,3 +85,4 @@ inoremap <down> <nop>
 set sw=2 ts=2 sts=2 expandtab
 
 source $HOME/.config/nvim/haskell.vim
+source $HOME/.config/nvim/coc.vim
