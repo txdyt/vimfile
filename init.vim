@@ -29,8 +29,6 @@ nnoremap <leader>y "+y
 nnoremap <leader>p "+p
 vnoremap <leader>p "+p
 
-" Look and feel
-
 "" PLUGIN MANAGEMENT
 call plug#begin(stdpath('data') . '/plugged')
 
@@ -44,6 +42,7 @@ Plug 'honza/vim-snippets'
 Plug 'tpope/vim-repeat'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'jnurmine/Zenburn'
 call plug#end()
 
 command! Pu PlugUpdate
@@ -83,6 +82,9 @@ inoremap <down> <nop>
 
 " Indentation
 set sw=2 ts=2 sts=2 expandtab
+
+" Look and feel
+colors zenburn
 
 source $HOME/.config/nvim/haskell.vim
 source $HOME/.config/nvim/coc.vim
